@@ -1,0 +1,30 @@
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Noto Sans KR", sans-serif;
+  --color-background: #f1f1f1;
+  --color-card: #ffffff;
+  --color-brand: #026eff;
+  --color-header: #000000;
+  --color-border: #cccccc;
+  --color-border-light: rgba(204, 204, 204, 0.8);
+  --color-text-primary: #313131;
+  --color-text-secondary: #626262;
+  --color-text-muted: #9c9c9c;
+  --radius: 8px;
+  --radius-sm: 5px;
+}
+
+html {
+  font-family: "Noto Sans KR", sans-serif;
+  color: #313131;
+  line-height: 1.6;
+  letter-spacing: -0.02em;
+  word-break: keep-all;
+  -webkit-font-smoothing: antialiased;
+}
+
+body {
+  margin: 0;
+  background: #000000;
+}
